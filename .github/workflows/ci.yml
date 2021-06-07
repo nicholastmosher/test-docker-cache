@@ -67,4 +67,4 @@ jobs:
           docker image ls -a
 
       - name: Run Docker image
-        run: docker run -t my-latest-image:latest
+        run: docker run -t my-test-image:latest
